@@ -551,7 +551,6 @@ header .header-bin nav ul li a {
   position: absolute;
   display: flex;
   max-width: var(--lg);
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   column-gap: 40px;
@@ -620,4 +619,128 @@ button.view {
   height: 60px;
   border: solid 1.4px #458ff6;
   border-radius: 55px;
+}
+
+.footer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: var(--xl);
+  margin-top: 150px;
+  height: 432px;
+}
+
+.footer .background {
+  width: 100%;
+  display: flex;
+  position: relative;
+  font-size: 0;
+  z-index: -1;
+}
+
+.footer .container1 {
+  display: flex;
+  position: absolute;
+  max-width: var(--xl);
+  align-items: center;
+  height: 432px;
+}
+
+.footer .container1 .blocks {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  max-width: var(--xl);
+}
+
+.footer .container1 .blocks .block1 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  width: 391px;
+  height: 201px;
+}
+
+.footer .container1 .blocks .block1 .logo {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.footer .container1 .blocks .block1 .logo .T {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px white;
+  border-radius: 50%;
+  width: 41px;
+  height: 41px;
+  font-family: var(--main-font);
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--blue);
+  background-color: white;
+  margin-right: 15px;
+}
+
+.footer .container1 .blocks .block1 .logo h3 {
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.footer .container1 .blocks .block1 .content {
+  margin-top: 20px;
+}
+
+.footer .container1 .blocks .block1 .content p {
+  font-family: var(--main-font);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.footer .container1 .blocks .block1 .content .bottom {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: white;
+}
+
+.footer .container1 .blocks .block2 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 214px;
+}
+
+.footer .container1 .blocks .block2 .box {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 120px;
+  margin-left: 120px;
+}
+
+.footer .container1 .blocks .block2 .box h3 {
+  font-family: var(--main-font);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 60px;
+  color: white;
+}
+
+.footer .container1 .blocks .block2 .box p {
+  font-family: var(--main-font);
+  font-size: 18;
+  font-weight: 300;
+  line-height: 38px;
+  color: white;
 }
